@@ -1,7 +1,8 @@
 
 I have build the basic functionality of this app , and there can be many more cool things 
-to add to it, but it would take a lot of time , so i am leaving it in this state
-this took a lot of time, then expected
+to add to it, but it would take a lot of time , so i am leaving it in this state for now !
+
+please contribute to this project if anyone wants to.
 
 
 // future improvements 
