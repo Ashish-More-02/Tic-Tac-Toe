@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Tic Tac Toe</h1>
+    <div class="container">
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+    </div>
+    <div class="winningMsg"> <button id="redDot"></button> Congratualtions!!! winner is X </div>
+    <div class="utility_btns">
+        <div class="player_score" id="player1">0</div>
+        <button class="reset_button">Reset game!</button>
+        <div class="player_score" id="player2">0</div>
+    </div>
+
+    <!-- added a confetti library to add new , functionality -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

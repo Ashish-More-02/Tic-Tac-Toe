@@ -1,0 +1,13 @@
+
+I have build the basic functionality of this app , and there can be many more cool things 
+to add to it, but it would take a lot of time , so i am leaving it in this state
+this took a lot of time, then expected
+
+
+// future improvements 
+
+1. add a 'new game' button 
+2. remove the bug of buttons getting clicked when baground is blured.
+3. imporove the UI , and make it mobile friendly (responsive UI)
+4. delay the popup of message div
+5. fix the bug that redBtn is not working 

@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* use these clases to apply blur to your elements , this webkit-filter is for older browsers*/
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+
+}
+
+.container {
+    border-radius: 20px;
+    margin: auto;
+    background-color: rgb(189, 222, 255);
+    display: flex;
+    height: 540px;
+    width: 432px;
+    flex-wrap: wrap;
+    align-items: center;
+    /* aligns items along the cross axis of flex direction*/
+    justify-content: space-evenly;
+    /* aligns items along the main axis of flex direction*/
+    /* by default flex direction is always row */
+
+}
+
+.box {
+    height: 120px;
+    width: 120px;
+    border-radius: 20px;
+    border: 2px solid black;
+    color: black;
+    background-color: rgb(219, 228, 237);
+    font-size: 2rem;
+}
+
+.utility_btns {
+    display: flex;
+    align-items: center;
+    width: 30vw;
+    justify-content: space-between;
+    margin: 10px 498px;
+    padding: 10px;
+}
+
+.reset_button {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(255, 93, 79);
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.player_score {
+    width: 120px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color: rgb(79, 149, 255);
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.winningMsg {
+    height: 150px;
+    width: 400px;
+    background-color: rgb(130, 231, 206);
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 2rem;
+    text-align: center;
+    padding: 50px 5px;
+    position: absolute;
+    top: 30vh;
+    left: 36vw;
+    display: none;
+
+}
+
+#redDot{
+    background-color: rgb(255, 85, 85);
+    position: absolute;
+    border-radius: 1000px;
+    padding: 8px;
+    top: 5px;
+    left: 5px;
+}
