@@ -2,6 +2,7 @@
 
 A classic Tic-Tac-Toe game built using HTML, CSS, and JavaScript. Challenge a friend or play solo to enjoy this timeless game!
 
+#### Demo - [Link](https://ashish-more-02.github.io/Tic-Tac-Toe/)  
 ---
 
 ## 🌟 Features  
